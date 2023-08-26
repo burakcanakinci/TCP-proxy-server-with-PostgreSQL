@@ -1,0 +1,28 @@
+{
+  "name": "ts-pg-interceptor",
+  "description": "A simple typescript interceptor for postgresql queries",
+  "version": "1.0.7",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "Esteban Gonzalez",
+    "email": "esteban.gonzalez@achilio.com"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@tsconfig/node18-strictest-esm": "^1.0.1",
+    "nodemon": "^2.0.20",
+    "vitest": "^0.30.1"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "vitest run"
+  }
+}
